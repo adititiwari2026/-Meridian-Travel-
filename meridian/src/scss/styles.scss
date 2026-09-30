@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+$pine:       #122A26;
+$pine-2:     #0D211D;
+$paper:      #FAF6EC;
+$paper-2:    #F1EADA;
+$clay:       #C77B3F;
+$clay-dark:  #A85F2C;
+$sage:       #7C9A82;
+$ink:        #1B1B16;
+$ink-soft:   #4B4B42;
+$line:       #E8DFC9;
+
+
+$primary:                $clay;
+$secondary:              $pine;
+$success:                $sage;
+$light:                  $paper;
+$dark:                   $pine;
+$body-bg:                $paper;
+$body-color:             $ink;
+$font-family-sans-serif: 'Space Grotesk', system-ui, sans-serif;
+$headings-font-family:   'Fraunces', serif;
+$headings-font-weight:   500;
+$headings-color:         $ink;
+$link-color:             $ink;
+$link-hover-color:       $clay;
+$link-decoration:        none;
+$border-radius:          .9rem;
+$border-radius-lg:       1.1rem;
+$border-radius-sm:       .6rem;
+$border-radius-pill:     50rem;
+$btn-border-radius:      $border-radius-pill;
+$btn-border-radius-lg:   $border-radius-pill;
+$btn-font-weight:        600;
+$btn-padding-y:          .7rem;
+$btn-padding-x:          1.6rem;
+$enable-negative-margins: true;
+
+@import "bootstrap/scss/bootstrap";
+@import "custom";
